@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My new Clculator</string>
+    <string name="result">Result</string>
+    <string name="multi">Multi</string>
+    <string name="sum">Sum</string>
+    <string name="number1">number1</string>
+    <string name="number2">number2</string>
+</resources>

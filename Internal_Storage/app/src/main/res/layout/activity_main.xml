@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:layout_marginBottom="5dp"
+        android:id="@+id/edit_text_username"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="25dp"
+        android:hint="Username"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="25dp"
+        android:hint="E_mail"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/edit_text_birthdate"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:textSize="25dp"
+        android:hint="Birth date"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_gravity="center"
+        />
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="save"
+        android:id="@+id/btn_save"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_restore"
+        android:text="Restore"
+        />
+
+    <TextView
+        android:id="@+id/info_viewer"
+        android:layout_width="393dp"
+        android:layout_height="425dp"
+        android:hint="info Viewer"
+        android:textSize="25dp"
+
+        />
+
+</LinearLayout>

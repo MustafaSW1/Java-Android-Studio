@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Radio Button</string>
+    <string name="Radio_button">Radio_button</string>
+    <string name="Pizza">Pizza</string>
+    <string name="hamberger">hamberger</string>
+    <string name="steak">steak</string>
+</resources>

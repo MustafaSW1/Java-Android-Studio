@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">AlertDailog</string>
+    <string name="hello">Message</string>
+    <string name="attention">do you want to leav this program</string>
+</resources>
